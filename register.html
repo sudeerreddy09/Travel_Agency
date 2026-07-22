@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blue Bee Tours - Register</title>
+
+    <style>
+
+        body{
+            margin:0;
+            background:#f2f2f2;
+            font-family:Arial;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .container{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px gray;
+            width:350px;
+        }
+
+        h1{
+            text-align:center;
+            color:blue;
+        }
+
+        h2{
+            text-align:center;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            margin-top:5px;
+            margin-bottom:15px;
+            box-sizing:border-box;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            background:blue;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:darkblue;
+        }
+
+        p{
+            text-align:center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🐝 Blue Bee Tours</h1>
+
+    <h2>Register</h2>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm password">
+
+        <label>Gender</label><br><br>
+
+        <input type="radio" name="gender" style="width:auto;"> Male
+        <input type="radio" name="gender" style="width:auto;"> Female
+        <input type="radio" name="gender" style="width:auto;"> Other
+
+        <br><br>
+
+        <input type="checkbox" style="width:auto;">
+        I agree to the Terms & Conditions
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+
+    <p>
+        <a href="index.html">Back to Home</a>
+    </p>
+
+</div>
+
+</body>
+
+</html>
