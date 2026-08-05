@@ -17,46 +17,54 @@
     <form id="registerForm" align="center">
 
         <label>Full Name</label><br>
-        <input type="text" id="name" placeholder="Enter your name">
+        <input type="text" id="name" placeholder="Enter your name" required>
 
         <br><br>
 
         <label>Email</label><br>
-        <input type="email" id="email" placeholder="Enter your email">
+        <input type="email" id="email" placeholder="Enter your email" required>
 
         <br><br>
 
         <label>Phone Number</label><br>
-        <input type="tel" id="phone" placeholder="Enter phone number">
+        <input type="tel" id="phone" placeholder="Enter phone number" required>
 
         <br><br>
 
         <label>Password</label><br>
-        <input type="password" id="password" placeholder="Enter password">
+        <input type="password" id="password" placeholder="Enter password" required>
 
         <br><br>
 
         <label>Confirm Password</label><br>
-        <input type="password" id="confirmPassword" placeholder="Confirm password">
+        <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+
+        <br><br>
+
         <label>
-        <input type="checkbox" id="showRegisterPassword">
+            <input type="checkbox" id="showRegisterPassword">
+            Show Password
         </label>
 
         <br><br>
 
         <label>Gender</label><br><br>
 
-        <input type="radio" id="male" name="gender" value="male">
+        <input type="radio" id="male" name="gender" value="Male">
         <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
+
+        <input type="radio" id="female" name="gender" value="Female">
         <label for="female">Female</label>
-        <input type="radio" id="other" name="gender" value="other">
+
+        <input type="radio" id="other" name="gender" value="Other">
         <label for="other">Other</label>
 
         <br><br>
 
-        <input type="checkbox" id="terms">
-        <label for="terms">I agree to the Terms &amp; Conditions</label>
+        <label>
+            <input type="checkbox" id="terms">
+            I agree to the Terms & Conditions
+        </label>
 
         <br><br>
 
@@ -74,6 +82,7 @@
     <p align="center">
         <a href="index.html">Back to Home</a>
     </p>
+
     <script src="js/script.js"></script>
 
 </body>
